@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/AreaPersonale.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/exceptions/InvalidParamException.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Login.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/Prenotazione.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/fatturaUtente.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/index.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/ElencoPrenotazioni.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/homeAmministratore.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/PrenotazioneFactory.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/InserisciSlot.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/lostBeachStyle.css</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/compilazioneFatture.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/prenotazioneEffettuata.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/chiSiamo.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Amministratore.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/FatturaFactory.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/ElencoUtenti.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/nuovoSlot.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/utils/Utils.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/areaPersonale.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Registrazione.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/Utente.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/js/lostbeachJS.js</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/SlotFactory.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/ElencoFatture.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/error.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/Fattura.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/FatturaEmessa.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/registrazioneSuccesso.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/login.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/registrazione.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Prenota.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/header.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/Slot.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/ElencoSlot.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/modificaDati.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/model/UtenteFactory.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Processa.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/web/contatti.jsp</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/servlet/Logout.java</file>
+            <file>file:/home/fpw/NetBeansProjects/LostBeach/src/java/it/unica/lostbeach/db/DatabaseManager.java</file>
+        </group>
+    </open-files>
+</project-private>

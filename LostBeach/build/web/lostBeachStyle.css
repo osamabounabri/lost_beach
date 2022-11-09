@@ -1,0 +1,753 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2021, 9:24:26 AM
+    Author     : fpw
+*/
+
+*
+{
+
+    box-sizing: border-box; 
+}
+
+body{
+
+    background-color: #99cbff;
+    font: 17px/25px Arial, Helvetica, sans-serif; 
+
+}
+
+h1
+{
+    color: #333333;
+    font: Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active {
+
+    text-decoration: underline;    
+
+}
+
+/*messaggio di errore*/
+#mexError{
+
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+p
+{
+    font-size: 20px;
+
+}
+
+header{
+
+    text-align: center;
+    background-color: #F0E68C;
+
+}
+
+
+
+#loginHome{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #99cbff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+    float: right;
+
+}
+
+.slot{
+
+    background-color: #F0E68C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 35%;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.prenotaPosti{
+
+    border: 0;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #99cbff;
+    padding: 10px 10px;
+    width: 100px;
+    outline: none;
+    border-radius: 24px;
+    background-color: white;
+
+}
+
+#prenota{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #2e8b57;
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 24px;
+    background-color: #99cbff;
+    cursor: pointer;
+
+}
+
+#prenota:hover{
+
+    background-color: #99FF99 ;
+
+}
+
+table{
+
+    width: 90%;
+    border-collapse: collapse;
+
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+td,th{
+
+    border: 3px solid blue;;
+    border-style: double;
+    background-color: #F0E68C;
+
+}
+
+#prenotaDiv{
+
+
+
+}
+
+
+
+nav
+{
+
+    background-color: #F0E68C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);   
+    margin-top: 5px;
+}
+
+nav ul, nav li{
+    list-style-type: none;
+    display: inline-table;
+    color: #000000;
+
+}
+
+
+
+
+nav li:active
+{
+    background-color: #99cbff;
+    color: #000000;
+}
+
+a:link
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited
+{
+    color: #000000;
+}
+
+
+
+label:after, label:before
+{
+    content:'\A';
+    white-space: pre;
+
+}
+
+label{
+
+    font-size: 20px;
+
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*7
+/*classi log-in*/
+
+#loginBox
+{
+    background-color: #F0E68C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: auto;
+    border-radius: 25px;
+}
+
+div#loginBox img{
+
+
+    display: block;
+
+    margin-left: -15%;
+
+
+}
+
+div#loginBox input[type="text"], div#loginBox input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #99cbff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+}
+
+div#loginBox input[type="text"]:focus, div#loginBox input[type="password"]:focus{
+
+    width: 280px;
+    border-color: #2e8b57;
+
+}
+
+input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2e8b57;
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #99cbff;
+    cursor: pointer;
+
+
+
+}
+
+input[type="submit"]:hover{
+
+    background-color: #99FF99 ;
+
+}
+
+div#loginBox p a{
+
+    color: #008000;
+    text-decoration: underline;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*stile pagina di registrazione*/
+
+#registrazioneBox
+{
+    background-color: #F0E68C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    height: auto;
+    border-radius: 25px;
+
+}
+
+div#registrazioneBox input[type="text"], #sesso, #fatturaSiNo, div#registrazioneBox input[type="email"], div#registrazioneBox input[type="date"], div#registrazioneBox input[type="password"], #ordina{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #99cbff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+
+}
+
+div#registrazioneBox input[type="text"]:focus, div#registrazioneBox input[type="email"]:focus, div#registrazioneBox input[type="password"]:focus{
+
+    width: 280px;
+    border-color: #2e8b57;
+
+}
+
+
+
+
+
+
+#sesso, #fatturaSiNo, div#registrazioneBox input[type="date"], #ordina{
+
+    cursor: pointer;
+
+}
+
+
+.dataLabel{
+
+    float: left;
+    position: relative;
+    left: -80px;
+    top : -10px;
+    display: inline;
+
+
+}
+
+#dataNascita{
+
+    position: relative;
+    left: -65px;
+
+}
+
+.genereLabel{
+
+    float: left;
+    position: relative;
+    left: -10px;
+    top : -10px;
+    display: inline;
+
+
+}
+
+#sesso{
+
+    position: relative;
+    left: -27px;
+
+}
+
+.info{
+
+    text-align: center;
+    background-color: #F0E68C;
+    margin-top: 10%;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%
+
+}
+
+/*stile inserimento slot*/
+
+#newSlotBox
+{
+    background-color: #F0E68C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: auto;
+    border-radius: 25px;
+
+}
+
+div#newSlotBox input, #orario, #selBagnino{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #99cbff;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+
+
+}
+
+
+div#newSlotBox input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #2e8b57;
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: #99cbff;
+    cursor: pointer;
+
+}
+
+div#newSlotBox input[type="submit"]:hover{
+
+    background-color: #99FF99 ;
+
+}
+
+
+
+
+div#newSlotBox h1{
+
+    font-size: 32px;
+
+}
+
+/* STILE AREA PEROSNALE */
+
+#areaPersonale{
+
+    background-color: #F0E68C;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: auto;
+    position: relative;
+    top: 50%;
+    border-radius: 25px;
+    width: 50%;
+    margin-top: 20px; 
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+#areaPersonale input{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #2e8b57;
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px; 
+
+
+}
+
+#areaPersonale button{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    border: 2px solid #2e8b57;
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px; 
+
+
+}
+#areaPersonale input:hover, button:hover{
+
+    background-color: #99FF99 ;
+
+}
+
+#areaPersonale button:hover{
+
+    background-color: #99FF99 ;
+
+}
+
+#areaPersonale a{
+
+    font-size: 1px; 
+
+}
+
+/*
+  stile pagina Amministratore e della visualizzazione
+  dei box di visualizzazione dei singoli elementi delle liste
+*/
+
+.utenteBox{
+
+    background-color: #F0E68C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    margin: 50px auto;
+    margin-left: 25px;
+    width: auto;
+    
+
+
+
+}
+
+
+
+.listUtenti{
+
+    list-style: none;
+    list-style-type: none;
+   
+
+}
+
+
+
+.logoutAmministratore{
+
+    margin-bottom: -25px;
+    margin-top: -10px;
+
+}
+
+/*stile pagina ricerca utente*/
+
+.wrapper{
+    
+    max-width: 450px;
+    margin: 50px auto;
+    
+}
+
+.wrapper .search-input{
+    
+    position: relative;
+    
+    width: 100%;
+    border-radius: 5px;
+    
+    
+}
+
+.search-input .inp{
+    
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+    
+}
+
+.search-input .autocom-box{
+    
+    padding: 10px 8px;
+    max-height: 280px;
+    overflow-y: auto;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    
+    
+}
+
+.search-input.active .autocom-box{
+    
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+
+.autocom-box li{
+    
+    
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+    
+}
+
+.search-input.active .autocom-box li{
+    
+    display: block;
+    
+}
+
+.autocom-box li:hover{
+
+    background: #efefef;
+    
+}
+
+/*responsivness della pagina*/
+
+[class*="col-"]
+{
+    float: left;
+    padding: 15px;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width:33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* responsività finestra*/
+
+@media only screen and (min-width: 768px)
+{
+    [class*="col-"]{
+        float: left;
+        padding: 15px;
+    }
+
+    img[title=Logo]{
+
+
+        width: 350px;
+        height: 110px;
+
+
+    }
+
+    div#loginBox{
+
+        width: 600px;
+
+    }
+
+    nav li{
+        padding-left: 20px;
+        padding-right: 20px;
+        border-right: 2px solid #111111;
+
+
+    }
+
+    nav li:last-child{
+
+        border-right: 0px solid #111111;       
+
+    }
+
+}
+
+/* finestra piccola */
+@media only screen and (max-width: 768px)
+{
+    [class*="col-"]{
+        float: none;
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* tolgo il bordo quando la finestra è piccola*/
+
+    nav ul{
+
+        padding-left: 0px;
+
+    }
+
+    nav li{
+        display: block;
+        border: 0px;
+    }
+
+    .utenteBox{
+
+        text-align: center;
+        width: 90%;
+
+    }
+
+
+
+}
+
